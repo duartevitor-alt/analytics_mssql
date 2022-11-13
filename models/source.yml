@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: sources
+    database: MaisRitmo_DW
+    schema: dbo
+    tables:
+      - name: dim_cliente
+      - name: dim_confg_doc
+      - name: fact_vendas 
